@@ -6,8 +6,8 @@ public class PalindromeNumber {
 
 	/**
 	 * Input:-2147447412
-	Output: true
-	Expected: false
+	 Output: true
+	 Expected: false
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class PalindromeNumber {
 				return false;
 			x = (x%h)/10;
 			h /= 100;
-			//System.out.println(x);
+			// System.out.println(x);
 		}
 		return true;
 	}
